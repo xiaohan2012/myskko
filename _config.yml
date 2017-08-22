@@ -1,11 +1,30 @@
-title: Starter Template
-author: Panoramedia
-email: panoramedia@gmail.com
+title: Finland-China Multi-cultural Education Association
+slogan: We care about education done in multi-cultural ways
+author: 
+email: some@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A Site Starter Materialize Templates for Jekyll
 
-twitter_username: macrod68
-github_username:  macrod68
+twitter_username: 
+github_username:  
 
 sass:
     style: compressed
+
+
+# Navigation settings
+# Used to define the navigation menu items
+# > Title is the tile of the navigation item, url the url and desc is the tooltip
+navigation:
+  - title: Service
+    url: /service/
+  - title: Projects
+    url: /projects/
+  - title: People
+    url: /people/    
+  - title: Contact
+    url: /contact/
+
+
+include:
+  - _pages	
