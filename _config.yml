@@ -1,5 +1,5 @@
 title: Finland-China Multi-cultural Education Association
-slogan: We care about education done in multi-cultural ways
+slogan: We care about education with ...
 author: 
 email: some@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -18,13 +18,18 @@ sass:
 navigation:
   - title: Service
     url: /service/
-  - title: Projects
-    url: /projects/
   - title: People
     url: /people/    
   - title: Contact
     url: /contact/
 
-
+service:
+  - imgurl: /assets/imgs/cn-lang.jpg
+    title: Chinese language tutoring
+    desc: Fusce consectetur est vel justo volutpat convallis. Nunc nec magna at enim fermentum faucibus efficitur sed mi. Nunc semper orci vitae porta faucibus. 
+  - imgurl: /assets/imgs/hiker.png
+    title: Educational tour
+    desc: Donec malesuada sollicitudin pellentesque. Aliquam hendrerit rhoncus lectus at dignissim. 
+  
 include:
   - _pages	

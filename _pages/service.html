@@ -1,7 +1,22 @@
 ---
-layout: default
+layout: page
 title: Service
 permalink: /service/
 ---
+<br><br><br><br><br>
 
+{% for row in site.service %}
+<div class="row">
+  <div class="card-image col m5 offset-m1">
+    <img src="{{row.imgurl}}">
+  </div>
+  <div class="col m5">
+    <h3 class="card-title  orange-text">{{ row.title | escape }}</h3>
+    <div class="card-content">
+      <p>{{row.desc  | escape }}.</p>
+    </div>
+  </div>
+</div>
+<br><br><br>
+{% endfor %}
 
