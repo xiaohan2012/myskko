@@ -40,12 +40,10 @@ boards:
     desc: MSc in Microbiology (University of Helsinki)
   - imgurl: /assets/imgs/han.jpg
     name: Han Xiao
-    desc: MSc in Computer Science (University of Helsinki), PhD candidate in Computer Science (Aalto University)
-
-auditors:
-  - imgurl: /assets/imgs/qing.jpg
-  - name: Pekka
-  - desc: 
+    desc: MSc in Computer Science (University of Helsinki)
+  - imgurl: /assets/imgs/pekka.jpg
+    name: Pekka
+    desc: MSc in Political Science
     
 include:
   - _pages	
