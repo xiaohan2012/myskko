@@ -8,7 +8,7 @@
 	    {% for link in site.navigation %}
 	    {% assign current = nil %}
 	    {% if page.url contains link.url %}
-            {% assign current ="class='blue darken-2'" %}
+            {% assign current ="class='blue darken-1'" %}
 	    {% endif %}
 	    <li {{current}}><a href="{{ link.url | relative_url }}"> {{ link.title | escape }} </a></li>
 	    {% endfor %}
