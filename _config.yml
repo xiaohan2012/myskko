@@ -42,8 +42,8 @@ boards:
     name: Han Xiao
     desc: MSc in Computer Science (University of Helsinki)
   - imgurl: /assets/imgs/pekka.jpg
-    name: Pekka
-    desc: MSc in Political Science
+    name: Pekka Sairanen (Lin Liu)
+    desc: M.A.International Relations in Contemporary East Asia (with Distinction, University of Birmingham), B.Sc. Economics and Political Science (With Honours, University of Birmingham)
     
 include:
   - _pages	
