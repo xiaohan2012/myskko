@@ -8,6 +8,8 @@ description: > # this means to ignore newlines until "baseurl:"
 twitter_username: 
 github_username:  
 
+baseurl: ""
+
 sass:
     style: compressed
 
@@ -46,4 +48,13 @@ boards:
     desc: M.A.International Relations in Contemporary East Asia (with Distinction, University of Birmingham), B.Sc. Economics and Political Science (With Honours, University of Birmingham)
     
 include:
-  - _pages	
+  - _pages
+
+
+# mult-lingual configuration
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "fi", "cn"]
+exclude_from_localizations: ["js", "imgs", "css"]
