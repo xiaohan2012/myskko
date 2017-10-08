@@ -1,26 +1,67 @@
 <nav class="blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" class="brand-logo" href="{{ "/" | relative_url }}">Logo</a>
+  <div class="nav-wrapper container">    
+    <a id="logo-container" class="brand-logo center" href="{{ "/" | relative_url }}">
+      Logo
+    </a>
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-          <ul class="right hide-on-med-and-down">
-            <li><a href="{{ "/" | relative_url }}">Home </a></li>
-	    {% for link in site.navigation %}
-	    {% assign current = nil %}
-	    {% if page.url contains link.url %}
-            {% assign current ="class='blue darken-1'" %}
-	    {% endif %}
-	    <li {{current}}><a href="{{ link.url | relative_url }}"> {{ link.title | escape }} </a></li>
-	    {% endfor %}
-          </ul>
+    <ul class="left hide-on-med-and-down">
+      {% for lang in site.languages %}
+      {% unless site.lang == lang %}
 
-          <ul id="nav-mobile" class="side-nav">
-            <li><a href="#">Home</a></li>
-	    {% for link in site.navigation %}
-	      <li><a href="{{ link.url | relative_url }}"> {{ link.title | escape }} </a></li>
-	    {% endfor %}
-          </ul>        
+      {% if lang == site.default_lang %}
+      {% assign page_url = site.baseurl_root | append: page.url %}
+      {% else %}
+      {% assign page_url = site.baseurl_root | append: "/" | append: lang | append: page.url %}
+      {% endif %}
+      
 
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
+
+      <li>
+	<a href="{{ page_url}}" >
+	  <span class="flag-icon flag-icon-{{ site.flag_icons[lang] }} flag-icon-squared"></span>
+	  {{ site.langs[lang] }}
+	</a>
+      </li>
+      {% endunless%}
+
+    {% endfor %}
+    </ul>
+    
+    <ul class="right hide-on-med-and-down">
+      <li>	      
+	<a href="{{ "/" | relative_url }}">
+	  {% t pages.home %}
+	</a>	      
+      </li>
+      {% for link in site.navigation %}
+      {% assign current = nil %}
+      {% if page.url contains link.url %}
+      {% assign current ="class='blue darken-1'" %}
+      {% endif %}
+      <li {{current}}>	      
+	<a href="{{ link.url | relative_url }}">
+	  {% t pages.{{ link.name }} %}
+	</a>	      
+      </li>
+      {% endfor %}
+    </ul>
+
+    <ul id="nav-mobile" class="side-nav">
+      <li>	      
+	<a href="#">
+	  {% t pages.home %}
+	</a>	      
+      </li>
+      {% for link in site.navigation %}
+      <li><a href="{{ link.url | relative_url }}">
+	  <!-- {{ pages.{{ link.name }} }} -->
+	  <!-- {% translate pages.{{ link.name }} %} -->
+      </a></li>
+      {% endfor %}
+    </ul>        
+
+    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  </div>
 </nav>

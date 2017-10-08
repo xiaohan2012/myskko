@@ -2,20 +2,28 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4"></p>
+          <h5 class="white-text">{% t footer.company_bio.title %}</h5>
+          <p class="grey-text text-lighten-4">
+	    {% t footer.company_bio.text %}
+	  </p>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Useful Links</h5>
+          <h5 class="white-text">
+	    {% t footer.useful_links.title %}
+	  </h5>
           <ul>
-            <li><a class="white-text" href="#!">Blogs</a></li>
+	    <li>	      
+	      <a class="white-text" href="http://xiaohan2012.github.io">
+		{% t footer.useful_links.blog %}
+	      </a>	      
+	    </li>
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Around the Web</h5>
+          <h5 class="white-text">{%t footer.around_web.title %}</h5>
           <ul>
-            <li><a class="white-text" href="#!">Weibo</a></li>
-            <li><a class="white-text" href="#!">Twitter</a></li>
+	    <li><a class="white-text" href="http://weibo.cn">{%t footer.around_web.weibo %}</a></li>
+	    <li><a class="white-text" href="http://twitter.com">{%t footer.around_web.twitter %}</a></li>
           </ul>
         </div>
       </div>

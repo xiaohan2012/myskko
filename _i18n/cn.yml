@@ -1,0 +1,26 @@
+global:
+  title: "芬中多元文化教育协会"
+  slogan: "我们眼中的“教育”"
+
+pages:
+  home: 首页
+  service: 服务
+  people: 团队
+  contact: 联系我们
+
+home:
+  love: 爱心
+  openness: 包容
+  growth: 成长
+
+footer:
+  company_bio:
+    title: "协会简介"
+    text: "我们致力于发现更好的教育"
+  useful_links:
+    title: "常用链接"
+    blog: "博客"
+  around_web:
+    title: "社交网络"
+    weibo: "微博"
+    twitter: "Twitter"

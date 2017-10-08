@@ -1,0 +1,26 @@
+global:
+  title: "Finland-China Multi-cultural Education Association"
+  slogan: "We believe education is about:"
+
+pages:
+  home: Home
+  service: Service
+  people: People
+  contact: Contact
+
+home:
+  love: Love
+  openness: Openness
+  growth: Growth
+
+footer:
+  company_bio:
+    title: "Bio"
+    text: "We are a group of passionate young people."
+  useful_links:
+    title: "Useful Links"
+    blog: "Blogs"
+  around_web:
+    title: "Around the Web"
+    weibo: "Weibo"
+    twitter: "Twitter"

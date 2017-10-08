@@ -1,9 +1,4 @@
-title: Finland-China Multi-cultural Education Association
-slogan: "We believe education is about:"
-author: 
 email: some@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  A Site Starter Materialize Templates for Jekyll
 
 twitter_username: 
 github_username:  
@@ -18,11 +13,11 @@ sass:
 # Used to define the navigation menu items
 # > Title is the tile of the navigation item, url the url and desc is the tooltip
 navigation:
-  - title: Service
+  - name: service
     url: /service/
-  - title: People
+  - name: people
     url: /people/    
-  - title: Contact
+  - name: contact
     url: /contact/
 
 service:
@@ -57,4 +52,16 @@ plugins:
   - jekyll-multiple-languages-plugin
 
 languages: ["en", "fi", "cn"]
-exclude_from_localizations: ["js", "imgs", "css"]
+
+langs:
+  en: English
+  cn: 简体中文
+  fi: Suomeksi
+
+# icon code
+flag_icons:
+  en: gb
+  cn: cn
+  fi: fi
+  
+exclude_from_localizations: ["js", "imgs", "css"]  
