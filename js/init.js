@@ -1,8 +1,12 @@
 (function($){
-  $(function(){
+    $(function(){
 
-    $('.button-collapse').sideNav();
-    $('.carousel').carousel();
+	$('.button-collapse').sideNav();
+	$('.carousel').carousel();
 
-  }); // end of document ready
+	$('#language-dropdown-button').dropdown({
+	    constrainWidth: true,
+	    belowOrigin: true
+	});
+    }); // end of document ready
 })(jQuery); // end of jQuery name space

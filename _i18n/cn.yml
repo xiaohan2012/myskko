@@ -6,6 +6,7 @@ pages:
   home: 首页
   service: 服务
   people: 团队
+  projects: 项目  
   contact: 联系我们
 
 home:
@@ -23,6 +24,33 @@ service:
     title: 教育夏令营
     desc: 。。。
 
+people:
+  header: 协会成员
+  qing:
+    imgurl: /assets/imgs/qing.jpg
+    name: 刘晴
+    desc: 赫尔辛基大学硕士：社会科学，辅修教育技术
+  jiahui:
+    imgurl: /assets/imgs/jiahui.jpg
+    name: 杨家会
+    desc: 赫尔辛基大学硕士：微生物
+  han:
+    imgurl: /assets/imgs/han.jpg
+    name: 肖晗
+    desc: 赫尔辛基大学硕士：计算机
+  pekka:
+    imgurl: /assets/imgs/pekka.jpg
+    name: 刘林（Pekka Sairanen）
+    desc: 伯明翰大学硕士：当代东亚国际关系（with distinction），伯明翰大学学士：经济与政治科学（with honours）
+
+contact:
+  header: 联系我们
+  first_name: 名
+  last_name: 姓
+  email: 电子邮箱
+  message: 内容
+  submit: 发送
+  
 footer:
   company_bio:
     title: "协会简介"

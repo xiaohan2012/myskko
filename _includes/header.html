@@ -1,12 +1,17 @@
-<nav class="blue lighten-1" role="navigation">
+<nav class="white" role="navigation">
   <div class="nav-wrapper container">    
-    <a id="logo-container" class="brand-logo center" href="{{ "/" | relative_url }}">
-      Logo
+    <a id="logo-container" class="brand-logo left" href="{{ "/" | relative_url }}" style="height:100%">
+      <img src="/assets/imgs/logo.png" style="height: 100%; width: auto;"/>
     </a>
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-    <ul class="left hide-on-med-and-down">
+    <a id='language-dropdown-button' class="right" href='#' data-activates='language-dropdown'>
+      <span class="flag-icon flag-icon-{{ site.flag_icons[site.lang] }} flag-icon-squared"></span>
+      <!-- {{ site.langs[site.lang] }} -->
+    </a>
+    
+    <ul id="language-dropdown" class="right dropdown-content">
       {% for lang in site.languages %}
       {% unless site.lang == lang %}
 
@@ -21,7 +26,7 @@
       <li>
 	<a href="{{ page_url}}" >
 	  <span class="flag-icon flag-icon-{{ site.flag_icons[lang] }} flag-icon-squared"></span>
-	  {{ site.langs[lang] }}
+	  <!-- {{ site.langs[lang] }} -->
 	</a>
       </li>
       {% endunless%}
@@ -31,17 +36,17 @@
     
     <ul class="right hide-on-med-and-down">
       <li>	      
-	<a href="{{ "/" | relative_url }}">
+	<a href="{{ "/" | relative_url }}" class='blue-text'>
 	  {% t pages.home %}
 	</a>	      
       </li>
       {% for link in site.navigation %}
       {% assign current = nil %}
       {% if page.url contains link.url %}
-      {% assign current ="class='blue darken-1'" %}
+      {% assign current ="class='blue lighten-5'" %}
       {% endif %}
       <li {{current}}>	      
-	<a href="{{ link.url | relative_url }}">
+	<a href="{{ link.url | relative_url }}" class="blue-text">
 	  {% t pages.{{ link.name }} %}
 	</a>	      
       </li>
@@ -50,7 +55,7 @@
 
     <ul id="nav-mobile" class="side-nav">
       <li>	      
-	<a href="#">
+	<a href="#" class="blue-text">
 	  {% t pages.home %}
 	</a>	      
       </li>

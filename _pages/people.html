@@ -4,17 +4,17 @@ title: People
 permalink: /people/
 ---
 
-<h1 class="orange-text">Board Members</h1>
+<h1 class="orange-text">{% t people.header%}</h1>
 
 {% for p in site.boards %}
 <div class="row">
   <div class="col m3">
-    <img class="z-depth-2" src="{{p.imgurl}}" style="max-width:90%; max-height:100%;">
+    <img class="z-depth-2" src="{% t people.{{ p }}.imgurl %}" style="max-width:90%; max-height:100%;">
   </div>
   <div class="col m7">
-    <h3 class="blue-text lighten-2">{{ p.name | escape }}</h3>
+    <h3 class="blue-text lighten-2">{% t people.{{ p }}.name %}</h3>
     <div class="light">
-      <p>{{p.desc  | escape }}</p>
+      <p>{% t people.{{ p }}.desc %}</p>
     </div>
   </div>
 </div>

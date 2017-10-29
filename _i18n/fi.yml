@@ -6,6 +6,7 @@ pages:
   home: Home
   service: Service
   people: People
+  projects: Projects  
   contact: Contact
 
 home:
@@ -23,6 +24,33 @@ service:
     title: Educational tour
     desc: Donec malesuada sollicitudin pellentesque. Aliquam hendrerit rhoncus lectus at dignissim.
 
+people:
+  header: Board Members
+  qing:
+    imgurl: /assets/imgs/qing.jpg
+    name: Qing Liu
+    desc: MSc in Social Science with minor in Education Technology (University of Helsinki)
+  jiahui:
+    imgurl: /assets/imgs/jiahui.jpg
+    name: Jiahui Yang
+    desc: MSc in Microbiology (University of Helsinki)
+  han:
+    imgurl: /assets/imgs/han.jpg
+    name: Han Xiao
+    desc: MSc in Computer Science (University of Helsinki)
+  pekka:
+    imgurl: /assets/imgs/pekka.jpg
+    name: Pekka Sairanen (Lin Liu)
+    desc: M.A.International Relations in Contemporary East Asia (with Distinction, University of Birmingham), B.Sc. Economics and Political Science (With Honours, University of Birmingham)
+
+contact:
+  header: Contact us
+  first_name: First name
+  last_name: Last name
+  email: Email
+  message: Message
+  submit: Submit
+  
 footer:
   company_bio:
     title: "Bio"
