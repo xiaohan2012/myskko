@@ -13,6 +13,16 @@ home:
   openness: 包容
   growth: 成长
 
+service:
+  tutor:
+    imgurl: /assets/imgs/cn-lang.jpg
+    title: 中文家教
+    desc: 我们教3-6岁芬兰儿童学习中文。
+  tour:
+    imgurl: /assets/imgs/hiker.png
+    title: 教育夏令营
+    desc: 。。。
+
 footer:
   company_bio:
     title: "协会简介"

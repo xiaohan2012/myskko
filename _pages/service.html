@@ -5,18 +5,17 @@ permalink: /service/
 ---
 <br><br><br><br><br>
 
-{% for row in site.service %}
+{% for name in site.service %}
 <div class="row">
   <div class="col m4">
-    <img src="{{row.imgurl}}" style="max-width:100%; max-height:100%;">
+    <img src="{% t  service.{{ name }}.imgurl %}" style="max-width:100%; max-height:100%;">
   </div>
   <div class="col m7">
-    <h3 class="orange-text">{{ row.title | escape }}</h3>
+    <h3 class="orange-text">{% t service.{{ name }}.title %}</h3>
     <div class="light">
-      <p>{{row.desc  | escape }}</p>
+      <p>{% t service.{{ name }}.desc %}</p>
     </div>
   </div>
 </div>
 <br><br><br>
 {% endfor %}
-

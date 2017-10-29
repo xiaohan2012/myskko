@@ -21,12 +21,8 @@ navigation:
     url: /contact/
 
 service:
-  - imgurl: /assets/imgs/cn-lang.jpg
-    title: Chinese language tutoring
-    desc: Fusce consectetur est vel justo volutpat convallis. Nunc nec magna at enim fermentum faucibus efficitur sed mi. Nunc semper orci vitae porta faucibus. 
-  - imgurl: /assets/imgs/hiker.png
-    title: Educational tour
-    desc: Donec malesuada sollicitudin pellentesque. Aliquam hendrerit rhoncus lectus at dignissim. 
+  - tutor        
+  - tour
 
 boards:
   - imgurl: /assets/imgs/qing.jpg

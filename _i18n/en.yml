@@ -13,6 +13,16 @@ home:
   openness: Openness
   growth: Growth
 
+service:
+  tutor:
+    imgurl: /assets/imgs/cn-lang.jpg
+    title: Chinese language tutoring
+    desc: We teach Chinese to Finnish kids (3-6 yr)
+  tour:
+    imgurl: /assets/imgs/hiker.png
+    title: Educational tour
+    desc: Donec malesuada sollicitudin pellentesque. Aliquam hendrerit rhoncus lectus at dignissim.
+    
 footer:
   company_bio:
     title: "Bio"
