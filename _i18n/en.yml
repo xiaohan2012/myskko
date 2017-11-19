@@ -11,8 +11,11 @@ pages:
 
 home:
   love: Love
-  openness: Openness
+  love_desc: "Listen, respect and channel appropriately"
+  openness: Diversity
+  openness_desc: "We offer diversified courses, unleashing student's full potential"
   growth: Growth
+  growth_desc: "Growths is not just about knowledge, but more about personality"
 
 service:
   tutor:

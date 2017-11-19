@@ -1,8 +1,11 @@
 <nav class="white" role="navigation">
-  <div class="nav-wrapper container">    
-    <a id="logo-container" class="brand-logo left" href="{{ "/" | relative_url }}" style="height:100%">
-      <img src="/assets/imgs/logo.png" style="height: 100%; width: auto;"/>
+  <div class="nav-wrapper container">
+    <!-- <h5 class="blue-text left" style="line-height: 75px"> {% t global.title %}</h5>           -->
+    <a id="logo-container" class="blue-text brand-logo left" href="{{ "/" | relative_url }}" style="height:100%">
+      <!-- {% t global.title %} -->
+      <img src="/assets/imgs/logo-{{ site.lang }}.jpg" class="" style="height: 100%; width: auto;"/>
     </a>
+    <!-- <a href="#" class="brand-logo blue-text"></a>       -->
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
@@ -26,7 +29,7 @@
       <li>
 	<a href="{{ page_url}}" >
 	  <span class="flag-icon flag-icon-{{ site.flag_icons[lang] }} flag-icon-squared"></span>
-	  <!-- {{ site.langs[lang] }} -->
+	  {{ site.langs[lang] }}
 	</a>
       </li>
       {% endunless%}

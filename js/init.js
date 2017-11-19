@@ -5,7 +5,7 @@
 	$('.carousel').carousel();
 
 	$('#language-dropdown-button').dropdown({
-	    constrainWidth: true,
+	    constrainWidth: false,
 	    belowOrigin: true
 	});
     }); // end of document ready

@@ -10,10 +10,13 @@ pages:
   contact: 联系我们
 
 home:
-  love: 爱心
-  openness: 包容
+  love: 关爱 
+  love_desc: "我们倾听学生的诉求，尊重学生的想法，给予积极的引导。"
+  openness: 多元  
+  openness_desc: "我们提供多元化的教学课程，充分开发学生的潜能。"
   growth: 成长
-
+  growth_desc: "不仅仅是知识的增长，更重要的美好人格的培养，做一个有益于社会的人。"
+  
 service:
   tutor:
     imgurl: /assets/imgs/cn-lang.jpg
