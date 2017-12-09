@@ -1,6 +1,6 @@
 global:
-  title: "Finland-China Multi-cultural Education Association"
-  slogan: "We believe education is about:"
+  title: "Finland-China International Education Association"
+  slogan: "Education From Our Perspective"
 
 pages:
   home: Home
@@ -10,25 +10,38 @@ pages:
   contact: Contact
 
 home:
-  love: Love
-  love_desc: "Listen, respect and channel appropriately"
+  love: Attentiveness
+  love_desc: "We tend to students unique demands, consider students ideas and provide positive guidance."
   openness: Diversity
-  openness_desc: "We offer diversified courses, unleashing student's full potential"
-  growth: Growth
-  growth_desc: "Growths is not just about knowledge, but more about personality"
+  openness_desc: "We provide a wide range of teaching programs tailored to fully realise the students’ potential."
+  growth: Maturity
+  growth_desc: "We focus not solely on expanding students knowledge, rather aim to create experiences which contribute to the maturity of our students."
 
 service:
+
+  cambridge:
+    imgurl: /assets/imgs/cambridge.jpg
+    title: Cambridge English Themed Tour    
+    desc: "This summertime tour located in Cambridge allows students to learn English, and experience British culture. For further information on the Cambridge learning experience, please click here."
+
+  finland:
+    imgurl: /assets/imgs/finland-tour.jpg
+    title: Finnish Tour Camps    
+    desc: "The Nordic countries are renown for their education systems. Equality is an important focus in Finnish education, and as a consequence the learning outcomes are maximised with respect to the relative abilities of the students - Finns do not believe in competition amongst students, rather competition with oneself. Schools provide many courses to choose from and students enjoy equal rights to choose which course they would like to undertake. Teachers treat students equally and provide students freedom within which to develop their strengths and interests."  
+
   tutor:
     imgurl: /assets/imgs/cn-lang.jpg
-    title: Chinese language tutoring
-    desc: We teach Chinese to Finnish kids (3-6 yr)
-  tour:
-    imgurl: /assets/imgs/hiker.png
-    title: Educational tour
-    desc: Donec malesuada sollicitudin pellentesque. Aliquam hendrerit rhoncus lectus at dignissim.
+    title: Chinese Teaching    
+    desc: "We provide Chinese language classes by teachers who have undergone professional Chinese training. Courses are available for young children, adult learners, as well as for parents to attend with their children. Primary and secondary course difficulties are available, and the secondary languages of instruction are English and Finnish. The courses are located in:"
+
+  counselling:
+    imgurl: /assets/imgs/counselling.jpg
+    title: Academic Counselling    
+    desc: "Considering that one should not blindly study abroad, rather carefully plan their academic career, we provide one-on-one counselling sessions from experience senior students. These sessions provide invaluable advice for those considering undertaking studies in the United Kingdom, Northern Europe, and/or Australia"
 
 people:
-  header: Board Members
+  header: Introduction to staff  
+  desc: "Our team comprises of Chinese overseas students and local Finns. We are all young digital natives. Our educational experience, diverse academic background, and intimate familiarity with Easter and Western cultures enable us to provide our Chinese students with deeply informed experiences."
   qing:
     imgurl: /assets/imgs/qing.jpg
     name: Qing Liu
@@ -57,7 +70,8 @@ contact:
 footer:
   company_bio:
     title: "Bio"
-    text: "We are a group of passionate young people."
+    text: "Our team comprises of Chinese overseas students and local Finns. We are all young digital natives. Our educational experience, diverse academic background, and intimate familiarity with Easter and Western cultures enable us to provide our Chinese students with deeply informed experiences."
+
   useful_links:
     title: "Useful Links"
     blog: "Blogs"

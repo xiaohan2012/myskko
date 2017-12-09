@@ -18,17 +18,29 @@ home:
   growth_desc: "不仅仅是知识的增长，更重要的美好人格的培养，做一个有益于社会的人。"
   
 service:
+  cambridge:
+    imgurl: /assets/imgs/cambridge.jpg
+    title: 剑桥英语夏令营
+    desc: ""
+
+  finland:
+    imgurl: /assets/imgs/finland-tour.jpg
+    title: 芬兰教育与自然夏令营
+    desc: ""  
+
   tutor:
     imgurl: /assets/imgs/cn-lang.jpg
-    title: 中文家教
-    desc: 我们教3-6岁芬兰儿童学习中文。
-  tour:
-    imgurl: /assets/imgs/hiker.png
-    title: 教育夏令营
-    desc: 。。。
+    title: 中文与中国文化教育
+    desc: ""
 
+  counselling:
+    imgurl: /assets/imgs/counselling.jpg
+    title: 教育咨询
+    desc: ""
+    
 people:
   header: 协会成员
+  desc: "我们团队由华人学生与当地芬兰人构成。使用我们的多元化教育背景，对东西方文化的熟悉以及对数字化世界的适应，学生能够拥有更加完美的体验。"
   qing:
     imgurl: /assets/imgs/qing.jpg
     name: 刘晴
@@ -57,7 +69,7 @@ contact:
 footer:
   company_bio:
     title: "协会简介"
-    text: "我们致力于发现更好的教育"
+    text: "我们团队由华人学生与当地芬兰人构成。使用我们的多元化教育背景，对东西方文化的熟悉以及对数字化世界的适应，学生能够拥有更加完美的体验。"
   useful_links:
     title: "常用链接"
     blog: "博客"

@@ -21,8 +21,10 @@ navigation:
     url: /contact/
 
 service:
-  - tutor        
-  - tour
+  - cambridge
+  - finland
+  - tutor
+  - counselling
 
 boards:
   - qing
