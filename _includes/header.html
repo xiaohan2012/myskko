@@ -63,7 +63,8 @@
 	</a>	      
       </li>
       {% for link in site.navigation %}
-      <li><a href="{{ link.url | relative_url }}">
+      <li><a href="{{ link.url | relative_url }}" class="blue-text">
+	  {% t pages.{{ link.name }} %}	  
 	  <!-- {{ pages.{{ link.name }} }} -->
 	  <!-- {% translate pages.{{ link.name }} %} -->
       </a></li>

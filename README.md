@@ -1,5 +1,10 @@
 # Jekyll Materialize Starter Template v0.1
 
+# todo
+
+- [ ] mobile: logo overlap with nav bar
+- [X] mobile: nav dropdownlist text is white
+
 *A Site Starter Materialize Templates.
 
 The theme is a fork of the [minima][1]
