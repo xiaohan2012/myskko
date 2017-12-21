@@ -7,30 +7,30 @@ permalink: /contact/
 
 
 <div class="row">
-  <form class="col s12 m10 offset-m1">
+  <form class="col s12 m10 offset-m1"  method="POST" action="http://formspree.io/xiaohan2012@gmail.com">
     <h1 class="orange-text">{% t contact.header %}</h1>
-    <div class="row">
-      <div class="input-field col s6 m5">
-	<input id="first_name" type="text" class="validate">
-	<label for="first_name">{% t contact.first_name %}</label>
-      </div>
-      <div class="input-field col s6 m5">
-	<input id="last_name" type="text" class="validate">
-	<label for="last_name">{% t contact.last_name %}</label>
-      </div>
-    </div>
+    <!-- <div class="row"> -->
+    <!--   <div class="input-field col s6 m5"> -->
+    <!-- 	<input id="first_name" type="text"> -->
+    <!-- 	<label for="first_name">{% t contact.first_name %}</label> -->
+    <!--   </div> -->
+    <!--   <div class="input-field col s6 m5"> -->
+    <!-- 	<input id="last_name" type="text"> -->
+    <!-- 	<label for="last_name">{% t contact.last_name %}</label> -->
+    <!--   </div> -->
+    <!-- </div> -->
 
     
     <div class="row">
       <div class="input-field col s12">
-	<input id="email" type="email" class="validate">
+	<input id="email" type="email" class="validate" name="email">
 	<label for="email">{% t contact.email %}</label>
       </div>
     </div>
 
     <div class="row">
       <div class="input-field col s12">
-	<textarea id="textarea1" class="materialize-textarea"></textarea>
+	<textarea id="textarea1" name="message" class="materialize-textarea"></textarea>
 	<label for="textarea1">{% t contact.message %}</label>
       </div>
     </div>

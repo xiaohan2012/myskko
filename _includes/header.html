@@ -9,7 +9,7 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-    <a id='language-dropdown-button' class="right" href='#' data-activates='language-dropdown'>
+    <a id="language-dropdown-button" class="right" href='#' data-activates='language-dropdown'>
       <span class="flag-icon flag-icon-{{ site.flag_icons[site.lang] }} flag-icon-squared"></span>
       <!-- {{ site.langs[site.lang] }} -->
     </a>
@@ -71,6 +71,6 @@
       {% endfor %}
     </ul>        
 
-    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    <a href="#" data-activates="nav-mobile" class="button-collapse right grey-text"><i class="material-icons">menu</i></a>
   </div>
 </nav>

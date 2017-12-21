@@ -21,22 +21,22 @@ service:
   cambridge:
     imgurl: /assets/imgs/cambridge.jpg
     title: 剑桥英语夏令营
-    desc: ""
+    desc: "在这个夏天，去剑桥，学纯正英语，体验英伦文化。详情请点击“去剑桥，学英语”招生简介。"
 
   finland:
     imgurl: /assets/imgs/finland-tour.jpg
     title: 芬兰教育与自然夏令营
-    desc: ""  
+    desc: "北欧的芬兰以人本教育闻名于世。教育平等是芬兰教育的关键词，意思是根据学生的才能，将他们的教育和学习成果发挥到最大，因此他们不相信学生之间的竞争，而相信应该与自己竞争，并彻底发挥其学习成果。学校里有很多课程可供选择，学生有平等的权利选择他想学习的课程。教师平等对待学生，让学生们可以自由发展他们的所长和兴趣。"  
 
   tutor:
     imgurl: /assets/imgs/cn-lang.jpg
     title: 中文与中国文化教育
-    desc: ""
+    desc: "由接受过专业汉语教学培训的老师教授汉语，课程为幼儿汉语，成人汉语，以及亲子汉语，课程难度由初级到中级，教学辅助语言为英语和芬兰语。"
 
   counselling:
     imgurl: /assets/imgs/counselling.jpg
     title: 教育咨询
-    desc: ""
+    desc: "由接受过专业汉语教学培训的老师教授汉语，课程为幼儿汉语，成人汉语，以及亲子汉语，课程难度由初级到中级，教学辅助语言为英语和芬兰语。"
     
 people:
   header: 协会成员

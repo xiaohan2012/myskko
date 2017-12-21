@@ -40,7 +40,7 @@ service:
     desc: "Considering that one should not blindly study abroad, rather carefully plan their academic career, we provide one-on-one counselling sessions from experience senior students. These sessions provide invaluable advice for those considering undertaking studies in the United Kingdom, Northern Europe, and/or Australia"
 
 people:
-  header: Introduction to staff  
+  header: Team members
   desc: "Our team comprises of Chinese overseas students and local Finns. We are all young digital natives. Our educational experience, diverse academic background, and intimate familiarity with Easter and Western cultures enable us to provide our Chinese students with deeply informed experiences."
   qing:
     imgurl: /assets/imgs/qing.jpg

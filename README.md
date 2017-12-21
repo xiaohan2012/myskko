@@ -2,8 +2,8 @@
 
 # todo
 
-- [ ] mobile: logo overlap with nav bar
-- [ ] logo: english version, more space between text and image
+- [X] mobile: logo overlap with nav bar
+- [X] logo: english version, more space between text and image
 - [ ] translation: service description in chinese 
 - [X] mobile: nav dropdownlist text is white
 

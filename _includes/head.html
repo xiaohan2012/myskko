@@ -17,12 +17,14 @@
 
   
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" media="screen,projection" href="{{ "/assets/materialize.css" }}" />
     <link rel="stylesheet" type="text/css" media="screen,projection" href="{{ "/assets/main.css" }}">
     <link rel="stylesheet" type="text/css" media="screen,projection" href="{{ "/assets/css/flag-icon.css" }}" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}" />
-  
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="{{ "/assets/css/default.css" }}" />
+
     {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
     {% endif %}
