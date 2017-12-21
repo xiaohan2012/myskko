@@ -2,9 +2,14 @@
 
 # todo
 
+- [ ] chinese font (lighter)
+- [ ] background texture
+
+# done
+
 - [X] mobile: logo overlap with nav bar
 - [X] logo: english version, more space between text and image
-- [ ] translation: service description in chinese 
+- [X] translation: service description in chinese 
 - [X] mobile: nav dropdownlist text is white
 
 *A Site Starter Materialize Templates.
